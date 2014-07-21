@@ -1,0 +1,25 @@
+{
+  "name": "ngHtml5DragDrop",
+  "version": "0.0.0",
+  "description": "Pure HTML5 Drag and Drop bindings for AngularJS",
+  "author": "William Grasel",
+  "homepage": "https://github.com/willgm/ngHtml5DragDrop",
+  "bugs": {
+    "url": "https://github.com/willgm/ngHtml5DragDrop/issues"
+  },
+  "keywords": [
+    "angularjs",
+    "html5",
+    "drag",
+    "drop",
+    "directive"
+  ],
+  "main": "./src/ngHtml5DragDrop.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willgm/ngHtml5DragDrop.git"
+  }
+}
