@@ -15,11 +15,9 @@
                     dragChannel: '@'
                 },
                 link: function (scope, element, attr) {
-                    if (scope.draggable === "false") return;
-                    debugger;
+                    if (scope.draggable !== "true") return;
 
                     element.bind("dragstart", function (e) {
-                        debugger;
                         var dragDataJson = angular.toJson(scope.dragData);
                         e.dataTransfer.setData('text', dragDataJson);
                         $rootScope.$broadcast("ANGULAR_DRAG_START:" + scope.dragChannel, scope.dragData);
